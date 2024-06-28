@@ -11,3 +11,132 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.bgColor{
+  background-color: #2c3e50 !important;
+  color: white ;
+}
+
+.bgBody{
+  background-color: #1abc9c;
+}
+.footerB{
+background-color: #212529;
+}
+
+
+
+nav .nav-link{
+  color: white !important;
+}
+.Start{
+  background-color: #1abc9c;
+  
+}
+
+.star,.starP{
+  position: relative;
+  
+}
+
+.star::after{
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  background-color: white;
+  top: 50%;
+  transform: translate(5%);
+  
+}
+
+.starP::after{
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  background-color: black;
+  top: 50%;
+  transform: translate(5%);
+  
+}
+
+.star::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  background-color: white;
+  top: 50%;
+  transform: translate(-106%);
+  
+}
+
+.starP::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  background-color:black;
+  top: 50%;
+  transform: translate(-106%);
+  
+}
+
+.imgStart{
+width: 16%;
+}
+.slideLayer{
+top:30%;
+bottom: 30%;
+left: 30%;
+position: fixed;
+
+}
+.slideLayer img{
+width: 60%;
+}
+
+ .sliderImg:hover .layer{
+display: flex;
+transition: all .5s;
+
+}
+.sliderImg{
+cursor: pointer;
+}
+.layer {
+  bottom: 0px;
+ top: 0px;
+ 
+  left: 0;
+  right: 0;
+  transition: all .5s;
+  background-color: rgba(26, 188, 156,.8);
+  display: none;
+}
+
+
+
+.contact input{
+border: none;
+
+
+}
+.contact input:focus{
+  outline: none;
+}
+
+.btnBg{
+  background-color: #1abc9c;
+  color: white;
+
+}
+
+.active{
+  background-color: #1abc9c;
+}
+
+.nav-link:hover{
+  background-color: #1abc9c;
+  border-radius: 6px;
+}
